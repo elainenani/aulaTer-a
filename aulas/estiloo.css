@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 1px solid black ;
+	position: fixed;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    padding: 5px;
+    list-style-type: none;
+}
+
+section {
+    margin-top:5px ;
+    border: 2px solid red;
+ 
+}
+
+section #direita {
+    border: 2px solid blue;
+    float: right;
+    width:45% ;
+}
+section #esquerda {
+    border: 2px solid red;
+    float: left;
+    width:50% ;
+}
+section #direita img{
+    width: 30%;
+}
